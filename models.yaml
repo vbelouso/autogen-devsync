@@ -1,0 +1,21 @@
+dev_agent:
+  model: deepseek-ai/deepseek-r1
+  base_url: https://integrate.api.nvidia.com/v1
+  timeout: 500
+  model_info:
+    family: llama
+    vision: false
+    function_calling: false
+    json_output: false
+    structured_output: false
+
+review_agent:
+  model: meta/llama-3.3-70b-instruct
+  base_url: https://integrate.api.nvidia.com/v1
+  timeout: 500
+  model_info:
+    family: llama
+    vision: false
+    function_calling: false
+    json_output: false
+    structured_output: false
